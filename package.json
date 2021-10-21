@@ -1,0 +1,25 @@
+{
+  "name": "html-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseamietta/html-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseamietta/html-code/issues"
+  },
+  "homepage": "https://github.com/joseamietta/html-code#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}

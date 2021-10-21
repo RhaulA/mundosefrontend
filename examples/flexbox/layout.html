@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font: 24px Helvetica;
+            margin: 0;
+            padding: 0;
+        }
+
+        #main {
+            min-height: 800px;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-flow: row;
+        }
+
+        #main>article {
+            padding: 5px;
+            border: 1px solid #cccc33;
+            background: #dddd88;
+            flex: 3 1 60%;
+            order: 2;
+        }
+
+        #main>nav {
+            padding: 5px;
+            border: 1px solid #8888bb;
+            background: #ccccff;
+            flex: 1 6 20%;
+            order: 1;
+        }
+
+        #main>aside {
+            padding: 5px;
+            border: 1px solid #8888bb;
+            background: #ccccff;
+            flex: 1 6 20%;
+            order: 3;
+        }
+
+        header,
+        footer {
+            display: block;
+            padding: 5px;
+            min-height: 100px;
+            border: 1px solid #eebb55;
+            background: #ffeebb;
+        }
+
+        /* Too narrow to support three columns */
+        @media all and (max-width: 997px) {
+
+            #main,
+            #page {
+                flex-flow: column;
+            }
+
+            #main>article,
+            #main>nav,
+            #main>aside {
+                /* Return them to document order */
+                order: 0;
+            }
+
+            #main>nav,
+            #main>aside,
+            header,
+            footer {
+                min-height: 50px;
+                max-height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <div id='main'>
+        <article>article</article>
+        <nav>nav</nav>
+        <aside>aside</aside>
+    </div>
+    <footer>footer</footer>
+</body>
+
+</html>

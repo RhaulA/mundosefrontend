@@ -1,0 +1,38 @@
+ul{
+    padding-left: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-left: 101px;
+    margin-right: 101px;
+}
+
+.nav-ul{
+    list-style: none;
+}
+
+.nav-ul li{
+    margin-right: 57px;
+}
+.h1-header{
+    margin-top: 191px;
+    font-family: "Popins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.cont-heade{
+    background-image: url(./imagenes/slider-1.png);
+
+
+}
