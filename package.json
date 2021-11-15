@@ -1,8 +1,8 @@
 {
-  "name": "html-code",
+  "name": "pin2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "directories": {
     "example": "examples"
   },
@@ -11,15 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joseamietta/html-code.git"
+    "url": "\u0016\u0016^V^V"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joseamietta/html-code/issues"
-  },
-  "homepage": "https://github.com/joseamietta/html-code#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1"
+    "bootstrap": "^5.1.3"
   }
 }

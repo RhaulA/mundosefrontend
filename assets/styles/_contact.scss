@@ -1,0 +1,61 @@
+.seccion-contact{
+ 
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: flex-end;
+    margin-left: 7.5rem;
+    margin-bottom: 7rem;
+
+        input{
+            padding: 1.5rem 0.75rem;
+            font-size: 1.5rem
+        }
+        textarea{
+            padding: 1.5rem 0.75rem;
+            font-size: 1.5rem
+        }
+
+    h2 {
+        margin-top: 7.5rem;
+        font-size: 3.9rem;
+        color: black;
+        margin-bottom: 75px;
+        
+
+          > span {
+                display: block;
+                color: $color-primary;
+        }
+    }
+
+            button{
+        
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: #e0752f;
+            font-size: 1.6rem;
+            padding: 15px 50px;
+            @include border-radius(25px);
+        }
+
+     .form-img{
+            padding-right: 101px;
+            margin-top: 12rem;
+            margin-bottom: 11rem;
+            margin: 0 auto;
+
+        
+            .custom-class {
+                display: none;
+              }
+              @include media-breakpoint-up(sm) {
+                .custom-class {
+                  display: block;
+                }
+              }
+        }
+    
+        
+ }

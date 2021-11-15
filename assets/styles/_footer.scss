@@ -1,0 +1,30 @@
+.seccion-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #343434;
+    padding-top:  38px;
+    padding-bottom:  36px;
+    width: 100%;
+    
+
+
+.footer-conteiner{ 
+    order: 2;
+    padding-right: 109px;
+    background-repeat: no-repeat;
+    size-adjust: 100%;
+
+}
+
+
+.h6-conteiner{
+    font-family: $font-primary;
+    font-size-adjust: $font-lighter 300;
+    order: 1;
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 109px;
+        }
+
+      
+} 
