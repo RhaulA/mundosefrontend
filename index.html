@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Módulo HTML Diplo FullStack</title>
+    <title>25Watts</title>
     <link rel="stylesheet" href="./assets/styles/app.css">
 </head>
 
@@ -29,37 +29,58 @@
         <section id="inicio" class="section-inicio">
             <div class="slider">
                 <div class="slider-items">
-                    <div class="slider-item slider-item--first slider-item--active">
-                        <div class="container">
-                            <h2>Sed ut perspiciatis<br> unde omnis iste natus</h2>
-                            <p>Sed ut perspiciatis unde omnis iste natus error<br> sit voluptatem accusantium
-                                doloremque.</p>
-                            <a href="">Read more</a>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active">
+                                        <img src="./assets/images/slider-1.png" class="d-block w-100" alt="imagen1">
+                                    <div container>
+                                        <div class="carousel-caption ">
+                                            <h2 class="text-start sm-base">Sed ut perspiciatis<br> unde omnis iste natus</h2>
+                                                <p class="text-start lh-lg fs-4 "> Sed ut perspiciatis unde omnis iste natus error<br> sit voluptatem accusantium
+                                                    doloremque.</p>
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-star">
+                                                            <button type="submit" class="btn btn-primary text-white fs-5">Read More</button>
+                                                        </div>
+                                                    </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/road-g0da948a4b_1280.jpg" class="d-block w-100" alt="imagen2">
+                                <div class="carousel-caption  d-md-block">
+                                    <h2 class="text-start sm-base">Sed ut perspiciatis<br> unde omnis iste natus</h2>
+                                        <p class="text-start lh-lg fs-4 "> Sed ut perspiciatis unde omnis iste natus error<br> sit voluptatem accusantium
+                                            doloremque.</p>
+                                            <div class="form-group">
+                                                <div class="col-md-12 text-star">
+                                                    <button type="submit" class="btn btn-primary text-white fs-5">Read More</button>
+                                                </div>
+                                            </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/road-g83d52bb46_1920.jpg" class="d-block w-100" alt="imagen3">
+                                <div class="carousel-caption d-md-block">
+                                    <h2 class="text-start sm-base"> Sed ut perspiciatis<br> unde omnis iste natus</h2>
+                                        <p class="text-start lh-lg fs-4 ">Sed ut perspiciatis unde omnis iste natus error<br> sit voluptatem accusantium
+                                            doloremque.</p>
+                                            <div class="form-group">
+                                                <div class="col-md-12 text-star">
+                                                    <button type="submit" class="btn btn-primary text-white fs-5">Read More</button>
+                                                </div>
+                                            </div>
+                                </div>
+                              </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="slider-item slider-item--first slider-item--active">
-                        <div class="container">
-                            <h2>Sed ut perspiciatis<br> unde omnis iste natus</h2>
-                            <p>Sed ut perspiciatis unde omnis iste natus error<br> sit voluptatem accusantium
-                                doloremque.</p>
-                            <a href="">Read more</a>
-                        </div>
-                    </div>
-                    <div class="slider-item slider-item--first slider-item--active">
-                        <div class="container">
-                            <h2>Sed ut perspiciatis<br> unde omnis iste natus</h2>
-                            <p>Sed ut perspiciatis unde omnis iste natus error<br> sit voluptatem accusantium
-                                doloremque.</p>
-                            <a href="">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-nav">
-                    <ul>
-                        <li><a  class="slider-nav--active"></a></li>
-                        <li><a class=""></a></li>
-                        <li><a class=""></a></li>
-                    </ul>
+                        
                 </div>
             </div>
         </section>
@@ -162,10 +183,9 @@
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-12">
-                                <input id="fname" name="name" type="text" placeholder="Name" class="form-control">
+                                <input id="name" name="name" type="text" placeholder="Name" class="form-control">
                             </div>
                         </div>
-                        
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-12">

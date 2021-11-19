@@ -1,109 +1,81 @@
 .section-inicio {
-    overflow: hidden;
         
 
-    .slider-items {
-        display: flex;
-     // flex-direction: row;
-        flex-wrap:row nowrap;
-        justify-content: space-between;
-        width: 300%;
-
-
-        transition: all .5s ease;
-        transform: translateX(-0%);
-        
-
-
-
-
-        .slider-item {
-            display: none;
-            height: 100vh;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            
-            
-
-        
-            
-
-            &.slider-item--active {
-                display: flex;
-
-            }
-
-            &.slider-item--first {
-                background-image: url("../images/slider-1.png");
+        .carousel-caption{
+       
+                position: absolute;
                 background-size: cover;
-                width: calc(100% /3);
-                min-width: 10vh;
-                overflow: hidden;
+                text-align: left;
+                bottom: 32rem;
+                justify-content: flex-start;
+                @extend .container;
+                left: 0px;
+                margin-left: 10rem;
+                padding-bottom: 32px;
+                margin-top: 30rem;
                 
-            }
 
+            
             h2 {
                 font-size: 4.8rem;
-            }
+ 
+            
 
             p {
-                font-size: 1.6rem;
-                margin-bottom: 40px;
-            }
+                font-size: 1rem;
+                margin-bottom: 60px;
+                text-align: left;
+                
+            
 
-            a {
-                display: inline-block;
-                color: white;
-                text-decoration: none;
-                background-color: $color-primary;
-                @include border-radius(25px);
-                font-size: 1.6rem;
-                padding: 15px 30px;
-            }
-
+                /*button{
+                    $border-radius:            25px !default;              
+                    $btn-padding-y:            15px;;
+                    $btn-padding-x:             40px;
+               }*/
         }
     
-    }
-        .slider-nav {
-            position: absolute;
-            width: 100%;
-            bottom: 20px;
-            left: auto;
 
-            > ul {
-                @extend .container;
-                padding-left: 0;
+    }  
+}
+        .carousel-item{
+            
+            position: relative;
+            text-align: center;
+        }
 
-                > li {
-                    display: inline-block;
-                    margin-left: 5px;
-                    margin-right: 5px;
+        .carousel-indicators {
 
-                    > a {
+            justify-content: flex-start;
+            bottom: 30rem;
+            @extend .container;
+        
+
+
+                        button {
                         display: block;
                         font-size: 0;
                         line-height: 0;
                         display: block;
-                        width: 12px;
-                        height: 12px;
+                        width: 0.4rem;
+                        height: 0.4rem;
                         padding: 5px;
                         color: transparent;
                         border: 0;
                         outline: none;
                         background-color: white;
                         opacity: 0.3;
-                        @include border-radius(25px);
+                        border-radius: 25px;
                         pointer-events: visiblePainted;
-                        
+                        border-bottom: 0em;
 
-                        &.slider-nav--active {
+                    
+                 } 
+
+                            .active {
                             background-color: $color-primary;
                             opacity: 1;
                         }
-                    }
-                }
-            }
-        }
-    
+                    
+         }                   
 }
